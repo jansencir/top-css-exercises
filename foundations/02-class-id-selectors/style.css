@@ -1,19 +1,22 @@
 .ordinary {
-    background-color: rgb(255, 125, 125);
-    font-family: "Verdana", "DejaVu Sans", sans-serif;
+    background-color: rgb(255, 167, 167);
+    font-family: Verdana, "DejaVu Sans", sans-serif;
 }
+/* change rgb color scheme to match outcome */
 
 #one {
-    color: blue;
+    color: #0000ff;
     font-size: 36px;
 }
+/* change color to hex */
 
 .cooler {
     font-size: 24px;
 }
 
 #another {
-    background-color: rgb(125, 255, 125);
+    background-color: hsl(120, 100%, 75%);
     font-weight: bold;
-    font-size: 24px;
 }
+/* change color to hsl */
+/* remove font-size from #another id because it can be combined with the .cooler class */
