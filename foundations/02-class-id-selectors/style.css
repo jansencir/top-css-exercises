@@ -1,5 +1,5 @@
 .ordinary {
-    background-color: rgba(255, 150, 150, 0.5);
+    background-color: rgb(255, 125, 125);
     font-family: "Verdana", "DejaVu Sans", sans-serif;
 }
 
@@ -9,5 +9,11 @@
 }
 
 .cooler {
+    font-size: 24px;
+}
+
+#another {
+    background-color: rgb(125, 255, 125);
+    font-weight: bold;
     font-size: 24px;
 }
