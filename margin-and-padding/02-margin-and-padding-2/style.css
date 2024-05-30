@@ -15,6 +15,11 @@ body {
   margin: 10px;
   padding: 8px;
   margin: 8px;
+  /* answer
+  margin-top: 0;
+  margin-bottom: 8px;
+  font-size: 16px;
+  padding: 8px */
 }
 
 .content {
@@ -22,6 +27,10 @@ body {
   display: block;
   padding: 16px 8px;
   margin: 8px;
+  /* answer
+  margin-bottom: 8px;
+  padding: 16px 8px;
+  */
 }
 
 .button-container {
@@ -29,6 +38,10 @@ body {
   text-align: center;
   padding: 8px;
   margin: 8px;
+  /* answer
+  text-align: center;
+  padding: 8px;
+  */
 }
 
 button {
@@ -38,4 +51,9 @@ button {
   text-align: center;
   padding: 8px 24px;
   margin: 10px auto;
+  /* answer
+  display: block;
+  margin: 0 auto;
+  padding: 8px 24px;
+   */
 }
