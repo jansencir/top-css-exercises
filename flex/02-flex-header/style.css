@@ -7,6 +7,14 @@
   padding: 5px;
 }
 
+/* answer
+.header {
+  padding: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+} */
+
 .logo {
   font-size: 48px;
   font-weight: 900;
@@ -24,6 +32,10 @@
   margin-left: auto;
 }
 
+/* 
+.left-links and .right-links not needed
+*/
+
 ul {
   /* this removes the dots on the list items*/
   list-style-type: none;
@@ -31,6 +43,15 @@ ul {
   gap: 15px;
   padding: 10px;
 }
+
+/* answer
+ul {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  gap: 8px;
+}
+*/
 
 a {
   font-size: 22px;
