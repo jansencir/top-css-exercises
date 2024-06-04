@@ -16,6 +16,14 @@ body {
   align-items: center;
 }
 
+/* answer
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px;
+}
+*/
+
 .profile-image {
   background: rebeccapurple;
   box-shadow: inset 2px 2px 4px rgba(0,0,0,.5);
@@ -43,6 +51,14 @@ body {
   align-items: center;
 }
 
+/* answer
+.left, .right {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+*/
+
 button {
   border: none;
   border-radius: 8px;
@@ -65,3 +81,12 @@ ul {
   padding: 0;
   gap: 15px;
 }
+
+/* answer
+ul {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  gap: 16px;
+}
+*/
