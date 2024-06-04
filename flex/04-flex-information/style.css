@@ -13,18 +13,38 @@ img {
   font-weight: 900;
   /* text-align: center; */
 }
+/* answer
+.title {
+  margin-bottom: 32px;
+}
+note: i did add this to .plant but it probably would make more sense here
+*/
 
 .plant-info {
   display: flex;
   flex-wrap: wrap;
   /* text-align: center; */
 }
+/* answer 
+.plant-info {
+  display: flex;
+  justify-content: center;
+  gap: 52px;
+}
+note: again i added the 52px to the margin in .plant but it would make more sense here
+*/
 
 .plant {
   flex: 1 1 auto;
   margin: 32px 52px;
   width: 200px;
 }
+/* answer
+.plant {
+  max-width: 200px;
+}
+note: better to set a hard max-width instead of a general rule of thumb
+*/
 
 /* do not edit this footer */
 .footer {
