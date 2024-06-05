@@ -18,6 +18,14 @@ body {
   color: darkmagenta;
 }
 
+.content-container{
+  display: flex;
+}
+
+.card-container{
+  display: flex;
+}
+
 .sidebar {
   width: 300px;
   background: royalblue;
