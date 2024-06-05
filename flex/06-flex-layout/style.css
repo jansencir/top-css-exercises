@@ -1,15 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
-.header {
+.header,
+.footer {
   display: flex;
+  justify-content: space-between;
+  padding: 0px 10px;
 }
 
+.footer {
+  margin-top: auto;
+  background: #eeeeee;
+}
 
 body {
   height: 100vh;
   margin: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
+  display: flex;
+  flex-direction: column;
 }
 
 img {
@@ -31,7 +40,10 @@ input {
 }
 
 ul {
+  display: flex;
   list-style-type: none;
+  padding: 0px 10px;
+  gap: 10px;
 }
 
 ul a {
