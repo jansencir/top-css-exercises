@@ -11,13 +11,12 @@ html {
   box-sizing: border-box;
 }
 
-.container div {
-  padding: 15px;
-  font-size: 32px;
-  font-family: Helvetica;
-  font-weight: bold;
-  color: white;
-  border-radius: 15px;
+.container {
+  display: grid;
+  grid-template-columns: 325px 1135px;
+  grid-template-rows: 100px 100px 500px 100px;
+
+  gap: 15px;
 }
 
 .header {
@@ -45,4 +44,14 @@ html {
   font-family: sans-serif;
   color: white;
   text-align: left;
+}
+
+/* GRID */
+.container div {
+  padding: 15px;
+  font-size: 32px;
+  font-family: Helvetica;
+  font-weight: bold;
+  color: white;
+  border-radius: 15px;
 }
